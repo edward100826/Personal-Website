@@ -1,0 +1,42 @@
+.skill-box {
+    //margin-bottom: 10px;
+    max-height: 50px;
+    &:hover {
+        background-color: #888;
+        .skillStar span {
+            font-size: 110%;
+        }
+    }
+}
+
+.skill-name {
+    height: 100%;
+    float: left;
+    p {
+        margin: 8px 0;
+    }
+}
+
+.skill-star {
+    float: right;
+    margin-top: 6px;
+    span {
+        color: #aaaaaa;
+        -webkit-transition: font-size 0.5s ease;
+        transition: font-size 0.5s ease;
+    }
+    span.checked {
+        color: #fdb847;
+    }
+}
+
+@media not all and (pointer: coarse) {
+    .skill-box {
+        &:hover {
+            background-color: #888;
+            .skill-star span {
+                font-size: 110%;
+            }
+        }
+    }
+}

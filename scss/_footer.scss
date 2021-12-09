@@ -1,0 +1,25 @@
+$main-bg-color: #343a40;
+$main-color: #fff;
+
+footer {
+    background: $main-bg-color;
+    color: $main-color;
+    width: 100%;
+    padding: 20px 0;
+    .contact p {
+        display: inline;
+        padding-left: 1rem;
+    }
+    .lang-footer {
+        margin: 10px auto;
+        a {
+            margin: auto 20px;
+        }
+    }
+    .copyright p{
+        margin-bottom: 0;
+    }
+    hr {
+        border-top: solid 1px $main-color !important;
+    }
+}

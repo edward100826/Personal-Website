@@ -1,0 +1,59 @@
+#head {
+    text-shadow: black 0.01em 0.01em 0.02em;
+    font-weight: 300;
+    position: relative;
+    .fa {
+        text-decoration: none;
+        border: none;
+        color: aqua !important;
+    }
+}
+
+.bg-image {
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.bg-text-flex {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.bg-text {
+    font-weight: bold;
+}
+
+.modal {
+    .modal-dialog {
+        max-width: none;
+        .modal-content {
+            background-color: rgba($color: #000000, $alpha: 0.6);
+            .modal-body {
+                padding: 0;
+                img {
+                    width: 100%;
+                    max-height: 90vh;
+                    -o-object-fit: contain;
+                       object-fit: contain;
+                }
+            }
+        }
+    }
+}
