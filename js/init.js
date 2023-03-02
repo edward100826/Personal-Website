@@ -54,15 +54,18 @@ let InitJobData = () => {
         interval: 'job-3-interval',
         interval2: 'job-3-interval-2',
         title: 'job-3-title',
-        officalsite: 'https://www.noonspace.com/',
+        officalsite: 'https://www.skzgroup.com.hk/',
         officialsiteTxt: 'official-website',
+        otherwork: 'https://www.jobspost.com.hk/',
+        otherworkTxt: 'other-work',
         hr: true
     });
     jobData.push({
         name: 'job-2-organisation',
         interval: 'job-2-interval',
+        interval2: 'job-2-interval-2',
         title: 'job-2-title',
-        officalsite: 'https://youngtour.com.tw/',
+        officalsite: 'https://www.noonspace.com/',
         officialsiteTxt: 'official-website',
         hr: true
     });
@@ -70,10 +73,8 @@ let InitJobData = () => {
         name: 'job-1-organisation',
         interval: 'job-1-interval',
         title: 'job-1-title',
-        officalsite: 'https://www.skzgroup.com.hk/',
+        officalsite: 'https://youngtour.com.tw/',
         officialsiteTxt: 'official-website',
-        otherwork: 'https://www.jobspost.com.hk/',
-        otherworkTxt: 'other-work',
         hr: false
     });
     AddJobElement(jobData, 'job-row');
