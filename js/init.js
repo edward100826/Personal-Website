@@ -236,7 +236,7 @@ let InitProfileData = () => {
         description: 'personal-description',
         tech_row: ['HTML', 'SCSS', 'JS'],
         link: [
-            { type: 'github', href: 'https://github.com/edward100826/Personal-Website' },
+            { type: 'github', href: 'https://github.com/edwardfkl/Personal-Website' },
             { type: 'demo', href: 'http://www.edwardfan.nhz.hk/' }
         ],
         img: './img/bg.webp'
@@ -259,7 +259,7 @@ let InitProfileData = () => {
         name: 'fyp',
         description: 'fyp-description',
         tech_row: ['PHP', 'MySQL'],
-        link: [{ type: 'github', href: 'https://github.com/edward100826/FinalYearProject' }],
+        link: [{ type: 'github', href: 'https://github.com/edwardfkl/FinalYearProject' }],
         img: ''
     });
     profileData.push({
@@ -301,7 +301,7 @@ let InitProfileData = () => {
         name: 'mittp2017',
         description: 'mittp2017-description',
         tech_row: ['React', 'QGIS'],
-        link: [{ type: 'github', href: 'https://github.com/edward100826/MIT_Taipei17' }],
+        link: [{ type: 'github', href: 'https://github.com/edwardfkl/MIT_Taipei17' }],
         img: ''
     });
     profileData.push({
@@ -309,7 +309,7 @@ let InitProfileData = () => {
         description: 'pns-description',
         tech_row: ['PHP', 'HTML', 'CSS'],
         link: [
-          { type: 'github', href: 'https://github.com/edward100826/Project-Nazca-Server-Website' },
+          { type: 'github', href: 'https://github.com/edwardfkl/Project-Nazca-Server-Website' },
           { type: 'demo', href: 'http://projectnazca.nhz.hk' }
         ],
         img: './img/profile/pns.webp'
