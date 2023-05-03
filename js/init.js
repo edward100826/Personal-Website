@@ -50,10 +50,10 @@ let AddJobElement = (array, row) => {
 }
 let InitJobData = () => {
     jobData.push({
-        name: 'job-3-organisation',
-        interval: 'job-3-interval',
-        interval2: 'job-3-interval-2',
-        title: 'job-3-title',
+        name: 'job-2-organisation',
+        interval: 'job-2-interval',
+        interval2: 'job-2-interval-2',
+        title: 'job-2-title',
         officalsite: 'https://www.skzgroup.com.hk/',
         officialsiteTxt: 'official-website',
         otherwork: 'https://www.jobspost.com.hk/',
@@ -61,19 +61,10 @@ let InitJobData = () => {
         hr: true
     });
     jobData.push({
-        name: 'job-2-organisation',
-        interval: 'job-2-interval',
-        interval2: 'job-2-interval-2',
-        title: 'job-2-title',
-        officalsite: 'https://www.noonspace.com/',
-        officialsiteTxt: 'official-website',
-        hr: true
-    });
-    jobData.push({
         name: 'job-1-organisation',
         interval: 'job-1-interval',
         title: 'job-1-title',
-        officalsite: 'https://youngtour.com.tw/',
+        officalsite: 'https://www.noonspace.com/',
         officialsiteTxt: 'official-website',
         hr: false
     });
@@ -129,11 +120,19 @@ let InitProgramData = () => {
         checked: ['checked', 'checked', 'checked', 'checked', 'checked']
     });
     programData.push({
-        name: 'CSS',
+        name: 'Javascript',
         checked: ['checked', 'checked', 'checked', 'checked', 'checked']
     });
     programData.push({
-        name: 'Boostrap',
+        name: 'CSS/SCSS',
+        checked: ['checked', 'checked', 'checked', 'checked', 'checked']
+    });
+    programData.push({
+        name: 'PHP',
+        checked: ['checked', 'checked', 'checked', 'checked', 'checked']
+    });
+    programData.push({
+        name: 'C/C++',
         checked: ['checked', 'checked', 'checked', 'checked', 'checked']
     });
     programData.push({
@@ -141,7 +140,19 @@ let InitProgramData = () => {
         checked: ['checked', 'checked', 'checked', 'checked', 'checked']
     });
     programData.push({
-        name: 'PHP',
+        name: 'React.js',
+        checked: ['checked', 'checked', 'checked', 'checked', ' ']
+    });
+    programData.push({
+        name: 'Next.js',
+        checked: ['checked', 'checked', 'checked', 'checked', ' ']
+    });
+    programData.push({
+        name: 'Flutter',
+        checked: ['checked', 'checked', 'checked', 'checked', ' ']
+    });
+    programData.push({
+        name: 'Laravel',
         checked: ['checked', 'checked', 'checked', 'checked', ' ']
     });
     programData.push({
@@ -149,31 +160,15 @@ let InitProgramData = () => {
         checked: ['checked', 'checked', 'checked', 'checked', ' ']
     });
     programData.push({
-        name: 'React',
-        checked: ['checked', 'checked', 'checked', 'checked', ' ']
-    });
-    programData.push({
-        name: 'C/C++',
-        checked: ['checked', 'checked', 'checked', 'checked', ' ']
-    });
-    programData.push({
-        name: 'Laravel',
-        checked: ['checked', 'checked', 'checked', '', ' ']
-    });
-    programData.push({
         name: 'Firebase',
-        checked: ['checked', 'checked', 'checked', '', ' ']
-    });
-    programData.push({
-        name: 'Angular',
-        checked: ['checked', 'checked', 'checked', '', ' ']
-    });
-    programData.push({
-        name: 'SCSS',
-        checked: ['checked', 'checked', 'checked', '', ' ']
+        checked: ['checked', 'checked', 'checked', 'checked', ' ']
     });
     programData.push({
         name: 'Java',
+        checked: ['checked', 'checked', 'checked', '', ' ']
+    });
+    programData.push({
+        name: 'Swift',
         checked: ['checked', 'checked', 'checked', '', ' ']
     });
     AddSkillElement(programData, 'program-row');
@@ -249,8 +244,8 @@ let InitProfileData = () => {
         img: './img/profile/jobspost.webp'
     });
     profileData.push({
-        name: 'skzgroup',
-        description: 'skzgroup-description',
+        name: 'cyhr',
+        description: 'cyhr-description',
         tech_row: ['HTML', 'SCSS', 'JS', 'PHP', 'Google API'],
         link: [{ type: 'demo', href: 'https://www.skzgroup.com.hk/' }],
         img: './img/profile/skzgroup.webp'
